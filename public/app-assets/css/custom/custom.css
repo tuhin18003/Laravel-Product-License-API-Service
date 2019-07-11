@@ -1,0 +1,114 @@
+/*================================================================================
+Item Name: Custom CSS
+Version: 1.0.0
+Author: CodeSolz <info@codesolz.net>
+Author URL: https://codesolz.net
+================================================================================*/
+
+.login-form .error {
+    padding-left: 45px;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.register-success img {
+    border-bottom: 1px dashed #0000f0;
+}
+.p-20 {
+    padding: 20px 0px !important;
+}
+.pt-20 {
+    padding-top: 20px !important;
+}
+.pt-40 {
+    padding-top: 40px !important;
+}
+.ptb-30 {
+    padding: 30px 0px !important;
+}
+.pt-60 {
+    padding-top: 60px !important;
+}
+.mt-40 {
+    margin-top: 40px !important;
+}
+.mt-20 {
+    margin-top: 20px !important;
+}
+.mt-100 {
+    margin-top: 100px !important;
+}
+.mb-40 {
+    margin-bottom: 40px !important;
+}
+.left-dashed-border {
+    border-left: 1px dashed #555;
+}
+.right-dashed-border {
+    border-right: 1px dashed #555;
+}
+.alert {
+    padding: 8px;
+}
+.font-italic {
+    font-style: italic;
+}
+.alert-success {
+    background: forestgreen;
+    color: #fff;
+}
+.card-override {
+    box-shadow: none;
+    border: 1px dashed #d500f9;
+    padding: 15px;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+.bg-white {
+    background: #fff !important;
+}
+.text-italic {
+    font-style: italic;
+}
+.mt-10 {
+    margin-top: 10px !important;
+}
+.pt-0 {
+    padding-right: 0px !important;
+}
+.fs-13 {
+    font-size: 13px !important;
+}
+.fs-14 {
+    font-size: 14px !important;
+}
+.upgrade-plan-title {
+    text-align: center;
+    margin: 54px 0px;
+}
+.upgrade-plan-title hr {
+    width: 80%;
+    border: 1px dashed #000;
+}
+.minheight-410 {
+    min-height: 410px;
+}
+.coin-address-block .coin-address {
+    /* font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #000;
+    padding: 8px 12px;
+    margin-top: 15px;
+    width: auto; */
+}
+.coin-address-block .coin-name {
+    font-size: 22px;
+}
+.total_coin {
+    font-size: 20px;
+    font-weight: bold;
+}
