@@ -8,7 +8,7 @@ class Paypal_Processor {
     private function default_pay_config(){
         return array(
             'cmd' => '_xclick',
-            'business' => 'tuhin18003@live.com',
+            'business' => 'youremail@gmail.com',
             'currency_code' => 'USD',
             'item_name' => '',
             'item_number' => '',
@@ -91,7 +91,7 @@ class Paypal_Processor {
         $demoUrlPrefix = '';
         if( isset( $args['demo']) && $args['demo'] == 'Y' ) {
             $demoUrlPrefix = 'sandbox.';
-            $params['business'] = 'tuhin1800-facilitator@gmail.com';
+            $params['business'] = 'sandboxemail@gmail.com';
             $params['return'] = 'http://127.0.0.1:8000/dashboard/upgrade/afterpayment';
             $params['cancel_return'] = 'http://127.0.0.1:8000/dashboard/upgrade/cancelled';
         }
